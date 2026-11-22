@@ -1,0 +1,206 @@
+{
+  "saved_profiles": {
+    "Iran Anti-DPI": {
+      "timeout": "30",
+      "settle": "3",
+      "ping_host": "1.1.1.1",
+      "ping_count": "4",
+      "resume": false,
+      "selected": [],
+      "random_cities": false,
+      "chaos_mode": false,
+      "stop_on_success": false,
+      "free_only": false,
+      "dedup_cities": true,
+      "keep_firewall": false,
+      "http_check": true,
+      "http_url": "http://cp.cloudflare.com/generate_204",
+      "anti_dpi_hold": true,
+      "hold_seconds": "15",
+      "fast_skip": true,
+      "speed_burst": true,
+      "watchdog": true,
+      "priority_order": [
+        "wstunnel",
+        "stealth",
+        "tcp",
+        "wireguard",
+        "udp",
+        "ikev2"
+      ],
+      "protocols": {
+        "wireguard": {
+          "enabled": true,
+          "ports": {
+            "443": true,
+            "80": false,
+            "53": true,
+            "123": true,
+            "1194": false,
+            "65142": false
+          }
+        },
+        "ikev2": {
+          "enabled": false,
+          "ports": {
+            "500": true
+          }
+        },
+        "udp": {
+          "enabled": false,
+          "ports": {
+            "443": true,
+            "80": false,
+            "53": true,
+            "123": false,
+            "1194": false,
+            "54783": false
+          }
+        },
+        "tcp": {
+          "enabled": true,
+          "ports": {
+            "443": true,
+            "587": true,
+            "21": false,
+            "22": true,
+            "80": true,
+            "123": false,
+            "143": false,
+            "3306": false,
+            "8080": true,
+            "54783": false,
+            "1194": false
+          }
+        },
+        "stealth": {
+          "enabled": true,
+          "ports": {
+            "443": true,
+            "587": true,
+            "21": false,
+            "22": true,
+            "80": true,
+            "123": false,
+            "143": false,
+            "3306": false,
+            "8080": true,
+            "54783": false,
+            "8443": true
+          }
+        },
+        "wstunnel": {
+          "enabled": true,
+          "ports": {
+            "443": true
+          }
+        }
+      },
+      "smart_ai": true,
+      "auto_pilot": true
+    }
+  },
+  "last_settings": {
+    "timeout": "30",
+    "settle": "3",
+    "ping_host": "1.1.1.1",
+    "ping_count": "4",
+    "resume": false,
+    "selected": [],
+    "random_cities": false,
+    "chaos_mode": false,
+    "stop_on_success": false,
+    "free_only": false,
+    "dedup_cities": true,
+    "keep_firewall": false,
+    "http_check": true,
+    "http_url": "http://cp.cloudflare.com/generate_204",
+    "anti_dpi_hold": true,
+    "hold_seconds": "15",
+    "fast_skip": true,
+    "speed_burst": true,
+    "watchdog": true,
+    "priority_order": [
+      "wstunnel",
+      "stealth",
+      "tcp",
+      "wireguard",
+      "udp",
+      "ikev2"
+    ],
+    "protocols": {
+      "wireguard": {
+        "enabled": true,
+        "ports": {
+          "443": true,
+          "80": false,
+          "53": true,
+          "123": true,
+          "1194": false,
+          "65142": false
+        }
+      },
+      "ikev2": {
+        "enabled": false,
+        "ports": {
+          "500": true
+        }
+      },
+      "udp": {
+        "enabled": false,
+        "ports": {
+          "443": true,
+          "80": false,
+          "53": true,
+          "123": false,
+          "1194": false,
+          "54783": false
+        }
+      },
+      "tcp": {
+        "enabled": true,
+        "ports": {
+          "443": true,
+          "587": true,
+          "21": false,
+          "22": true,
+          "80": true,
+          "123": false,
+          "143": false,
+          "3306": false,
+          "8080": true,
+          "54783": false,
+          "1194": false
+        }
+      },
+      "stealth": {
+        "enabled": true,
+        "ports": {
+          "443": true,
+          "587": true,
+          "21": false,
+          "22": true,
+          "80": true,
+          "123": false,
+          "143": false,
+          "3306": false,
+          "8080": true,
+          "54783": false,
+          "8443": true
+        }
+      },
+      "wstunnel": {
+        "enabled": true,
+        "ports": {
+          "443": true
+        }
+      }
+    },
+    "smart_ai": true,
+    "auto_pilot": true
+  },
+  "cli_path": "",
+  "window": "",
+  "sidebar_open": true,
+  "language": ""
+}
