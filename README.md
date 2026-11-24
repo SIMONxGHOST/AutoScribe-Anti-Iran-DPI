@@ -4,6 +4,8 @@
 
 **Find the Windscribe servers and protocols that actually work on your network.**
 
+**This branch is a fork of rasool-mrr/AutoScribe**
+
 **English** · [فارسی](README.fa.md) · [Русский](README.ru.md)
 
 </div>
